@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head lang="en">
+    <meta charset="UTF-8">
+	<title>眸事网-大数据教育应用,一站式精准获客平台</title>
+	<meta name="description" content="眸事网通过线上行为数据采集与线下静态数据库匹配的方式，形成完整的用户画像，提供给企业，帮助企业提升50%销售转化率。">
+	<meta name="keywords" content="精准营销,大数据教育应用,获客">
+	<meta name="baidu-site-verification" content="SdcIOUYnNG" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+
+	<link rel="stylesheet" href="css/city-select.css">
+<style>
+		 .btn-search { width: 230px; height: 60px; line-height: 60px;text-align: center; display: block; margin: 0 auto; 
+		 background: url(html/images/home-index/banner-btn.png) no-repeat; border: 0; color: #fff; font-size: 24px;}
+		 .btn-search:hover { background: url(html/images/home-index/banner-btn-h.png) no-repeat;}
+
+		 .box-search { padding-left: 30px; float: left; color: #fff; font-size: 18px; line-height: 58px;}
+		 .box-search .box-industry { border: 1px #fff solid; width: 300px; height: 58px; background: url(html/images/home-index/select-down.png) 270px center no-repeat rgba(255,255,255,.2); float: left; text-indent: 16px; position: relative;}
+		.box-area { border: 1px #fff solid; width: 380px; height: 58px; background: url(html/images/home-index/select-down.png) 350px center no-repeat rgba(255,255,255,.2); float: left; margin-left: -1px; text-indent: 16px; position: relative;}
+		.valued-p{cursor:pointer;}
+	
+		.area-box { width: 536px; position: absolute; left: -1px; top: 60px; background: #415263; border: 1px #fff solid; border-bottom: 0;}
+		.area-input { height: 55px;}
+		.area-input input { width: 374px; height: 38px; background: #2C3B4A; border: 1px #fff solid; float: left; margin-top: 7px; margin-left: 8px; padding-left: 8px;}
+		.area-input .close { background: url(html/images/home-index/icon-close.png) no-repeat; width: 20px; height: 20px; float: right; margin: 6px; cursor: pointer;}
+		.area-input .close:hover { background: url(html/images/home-index/icon-close-h.png) no-repeat;}
+		.letter-nav { height: 40px; background: #14273D; color: #fff;}
+
+		.city-list { padding-top: 8px; line-height: 36px; color: #fff;}
+		.cover { background: rgba(0,0,0,.6); position: fixed; left: 0; top: 0; bottom: 0; right: 0; width: 100%; height: 100%; z-index: 100; display: none;}
+		.cover .ad-promotion { position: absolute; width: 80%; margin-left: -40%; top: 20px; left: 50%;}
+		.cover .ad-promotion .closed { display: inline-block; background: url(html/images/home-index/icon-close.png) no-repeat; width: 20px; height: 20px; position: absolute; right: 12px; top: 12px; cursor: pointer;}
+		.cover .ad-promotion img { width: 100%;}
+		.box-industry .valued-i { cursor: pointer;}
+		#multi-select-2 { display:block; }
+		
+		.outbox { position:relative; line-height: 60px; cursor: pointer;}
+		.error { position:absolute; left:0; top:50px; color:#CB5F5D; font-size:14px; display:none; text-indent: 0;}
+	
+</style>
+</head>
+<body>
+
+<p>点击按钮获取数组中大于 18 的所有元素。</p>
+<button onclick="myFunction()">点我</button>
+	<p id="demo"></p>
+	<div id="content">
+		
+	</div>
+
+<script>
+var ages = [32, 33, 16, 40];
+function checkAdult(age) {
+    return age >= 18;
+}
+function myFunction() {
+	document.getElementById("demo").innerHTML = ages.filter(checkAdult);
+}
+
+
+</script>
+
+</body>
+</html>
